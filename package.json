@@ -1,0 +1,22 @@
+{
+  "name": "lalanterna-pizza.de",
+  "version": "1.0.0",
+  "description": "Pizzeria",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Albert Mendes",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.24.5",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-clean-css": "^3.9.4"
+  },
+  "dependencies": {
+    "gulp-uglify-es": "^1.0.4"
+  }
+}
