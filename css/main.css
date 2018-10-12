@@ -677,7 +677,7 @@ div.confetti img {
 
 img.cheers {
 	position: absolute;
-	max-width: 600px;
+	max-width: 800px;
 	opacity: 0.03;
 	left: 0;
 	right: 0;
@@ -723,9 +723,16 @@ img.cheers {
 	cursor: pointer;
 	transition: all .5s;
 }
-.spezial-tabs ul li a:hover, .spezial-tabs ul li a:focus {
+.spezial-tabs li:hover a {
 	background: #ce2b37;
 	color: white;
+}
+.spezial-tabs .active {
+	background: #ce2b37;
+	color: white !important;
+}
+.spezial-tabs .active a {
+	color: white !important;
 }
 
 #spezialTab1, #spezialTab2, #spezialTab3 {
