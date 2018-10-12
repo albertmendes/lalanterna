@@ -115,6 +115,12 @@
       animation: false
     });
 
+    $(".spezial-tabs").tabslet({
+      container: '#spezialTabsContainer',
+      animation: false
+    });
+    $(".spezial-tabs a").first().focus();
+
     $("#homeClick, #homeClickMob, .logo").on("click", function(e) {
       e.preventDefault();
       $("html, body").stop().animate({

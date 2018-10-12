@@ -660,6 +660,102 @@ div.download-card {
 	position: relative;
 }
 
+div.confetti {
+	position: absolute;
+	width: 90%;
+}
+div.confetti img {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: -34px;
+	width: 89px;
+	opacity: 0.1;
+}
+
+img.cheers {
+	position: absolute;
+	max-width: 600px;
+	opacity: 0.03;
+	left: 0;
+	right: 0;
+	top: 89px;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media (max-width: 425px) {
+	img.cheers {
+		top: 200px;
+	}
+}
+
+
+.spezial-separator {
+	border-top: 1px solid #ccc;
+}
+.spezial-text {
+	padding: 55px 21px 21px 21px;
+	margin-top: 89px;
+	color: black;
+	text-align: center;
+	font-size: 21px;
+	line-height: 34px;
+}
+.spezial-tabs {
+	padding-top: 89px;
+}
+.spezial-tabs i {
+	margin-right: 13px;
+}
+.spezial-tabs ul li {
+	display: inline-block;
+	margin-right: 21px;
+	border: 0;
+
+}
+.spezial-tabs ul li a {
+	display: block;
+	color: #ce2b37;
+	border: 2px solid #ce2b37;
+	padding: 13px 34px;
+	cursor: pointer;
+	transition: all .5s;
+}
+.spezial-tabs ul li a:hover, .spezial-tabs ul li a:focus {
+	background: #ce2b37;
+	color: white;
+}
+
+#spezialTab1, #spezialTab2, #spezialTab3 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	max-width: 555px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.spezial-title {
+	padding-bottom: 21px;
+	border-bottom: 1px solid;
+	margin-bottom: 21px;
+	font-weight: bold;
+}
+.spezial-price {
+	color: #009246;
+	margin-top: 55px;
+	font-size: 34px;
+}
+
+.sp-tab-item {
+	margin: 21px;
+	line-height: 21px;
+}
+
+
+
 .tabs LI {
 	border: 2px solid #009246;
 	margin-right: 5px;
