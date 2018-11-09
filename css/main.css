@@ -1479,3 +1479,38 @@ div.copyright {
 }
 
 /** FOOTER END ************/
+
+/** Silvester */
+
+.silvester {
+	max-width: 500px;
+	padding: 21px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	display: flex;
+	align-items: center;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	margin-top: 89px;
+}
+.silvester img {
+	width: 100px;
+	margin-right: 5px;
+}
+
+.silvester a.silvester-click {
+	display: block;
+	padding: 8px;
+	border: 2px solid #009246;
+	color: #009246 !important;
+	transition: all .5s;
+}
+a.silvester-click:hover {
+	background: #009246;
+	color: white !important;
+}
+@media (max-width: 425px) {
+	.silvester {
+		flex-direction: column;
+	}
+}
