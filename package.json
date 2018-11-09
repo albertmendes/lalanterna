@@ -17,6 +17,7 @@
     "gulp-clean-css": "^3.9.4"
   },
   "dependencies": {
-    "gulp-uglify-es": "^1.0.4"
+    "gulp-uglify-es": "^1.0.4",
+    "natives": "^1.1.6"
   }
 }
