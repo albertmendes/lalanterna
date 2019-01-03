@@ -72,7 +72,8 @@
   $(document).ready(function() {
 
     // Close popup
-    $("#closePopup").on("click", function() {
+    $("#closePopup").on("click", function(e) {
+      e.preventDefault();
       $(".popup").css("display", "none");
     });
 
