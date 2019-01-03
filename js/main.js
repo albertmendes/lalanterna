@@ -71,6 +71,11 @@
 
   $(document).ready(function() {
 
+    // Close popup
+    $("#closePopup").on("click", function() {
+      $(".popup").css("display", "none");
+    });
+
     /* Checkbox Kontaktformular */
     $("#checkSubmit").on("click", function() {
       var ischecked = document.getElementById("checkSubmit").checked;

@@ -1514,3 +1514,52 @@ a.silvester-click:hover {
 		flex-direction: column;
 	}
 }
+
+.popup {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid white;
+	z-index: 9999999;
+	background: #e2e2e2;
+	color: #333;
+	max-width: 344px;
+	padding: 21px;
+	top: 89px;
+	left: 21px;
+	line-height: 29px;
+}
+@media (max-width: 425px) {
+	.popup {
+		left: 0 !important;
+		right: 0 !important;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+.popup h2 {
+	font-size: 21px;
+}
+.popup h2::before {
+	content: '';
+	position: absolute;
+	background: url(../../img/sunbed.svg);
+	left: 21px;
+	top: 21px;
+	width: 89px;
+	height: 89px;
+	opacity: .5;
+}
+.popup a {
+	position: absolute;
+	right: 5px;
+	top: 0px;
+	color: #333;
+	text-decoration: underline;
+}
+.popup p {
+	margin-top: 55px;
+}
+.popup span {
+	margin-left: 21px;
+}
