@@ -129,7 +129,7 @@ div.section-1 {
 	animation-iteration-count: infinite;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) {
 	@keyframes scaleBG {
 		50% {
 			background-size: 170%;
@@ -1285,7 +1285,7 @@ div.form-email i {
 div.contactform input[type="submit"] {
   width: 100%;
   border: 0;
-  background: rgba(0,100,0,0.2); //#009246;
+  background: rgba(0,100,0,0.2); /*#009246;*/
   color: white;
   padding: 21px;
   cursor: pointer;
@@ -1561,4 +1561,36 @@ a.silvester-click:hover {
 }
 .popup span {
 	margin-left: 21px;
+}
+
+.dogs {
+	margin-top: 144px;
+	border-top: 1px solid #ccc;
+	padding: 89px 21px 21px 21px;
+}
+.dogs-left {
+	float: left;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dogs-right {
+	float: right;
+    width: 50%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 34px;
+    font-size: 21px;
+}
+
+@media (max-width: 425px) {
+	.dogs-left, .dogs-right {
+		width: 100%;
+		text-align: center;
+		height: 180px;
+	}
 }
