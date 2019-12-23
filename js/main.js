@@ -182,6 +182,14 @@
         $(".burgerMenu").trigger("click");
       }
     });
+
+    $("#feierClick").on("click", function(e) {
+      e.preventDefault();
+      $("html, body").stop().animate({
+        scrollTop: ($('#spezial-menu').offset().top - 89)
+      }, 1250, 'easeInOutExpo');
+    });
+
     $("#contactClick, #contactClickMob").on("click", function(e) {
       e.preventDefault();
       $("html, body").stop().animate({

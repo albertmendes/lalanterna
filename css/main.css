@@ -1528,6 +1528,27 @@ a.silvester-click:hover {
 	top: 89px;
 	left: 21px;
 	line-height: 29px;
+	border-radius: 5px;
+	box-shadow: 0 0 13px 1px rgba(0,0,0,0.3);
+}
+#closePopup {
+	text-decoration: none;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background: #c39898;
+	line-height: 23px;
+	top: 5px;
+}
+#feierClick {
+	position: relative;
+	text-decoration: none;
+	background: #c39898;
+    border-radius: 5px;
+    padding: 5px 21px;
+    color: white;
 }
 @media (max-width: 425px) {
 	.popup {
@@ -1543,7 +1564,7 @@ a.silvester-click:hover {
 .popup h2::before {
 	content: '';
 	position: absolute;
-	background: url(../../img/sunbed.svg);
+	background: url(../../img/champagner.svg);
 	left: 21px;
 	top: 21px;
 	width: 89px;

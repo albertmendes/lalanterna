@@ -15,7 +15,7 @@
 		<meta property="og:image:height" content="312" />
 
 		<title>Ristorante Pizzeria La Lanterna</title>
-		<link rel="stylesheet" type="text/css" href="build/css/main.css?v=14112019">
+		<link rel="stylesheet" type="text/css" href="build/css/main.css?v=06122019">
 		<!-- <link rel="stylesheet" type="text/css" href="css/main.css?v=030120191">  -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
@@ -25,17 +25,17 @@
 		<script src="vendor/js/TweenMax.min.js"></script>
 	</head>
 	<body>
-	<!--
+		 
 		<div class="popup">
-			<h2 style="flex:1">Urlaub</h2>
-			<a href="#" id="closePopup">Schließen</a>
+			<h2 style="flex:1">Termine frei!</h2>
+			<a href="#" id="closePopup">x</a>
 			<p style="flex:2">
-				Vom <b>14. - 21. Januar</b> gönnen wir uns eine Pause. <br>
-				Wir freuen uns Sie danach wieder bei uns im Restaurant begrüßen zu dürfen.<br>
-				<span><i>-Ihr La Lanterna Team</i></span>
+				Bis zum Jahresende haben wir noch Termine frei! Setzen Sie sich mit uns in Verbindung und feiern Sie mit Freunden und Kollegen bei uns.
+				<br><br>
+				<a href="#" id="feierClick">Zu den Spezial Menüs</a>
 			</p>
 		</div>
-		-->
+		
 		<div class="overlay">
 			<img src="img/tabs/pizza.svg" alt="" id="pizzaSpin">
 			<span> lädt gerade ...</span>
@@ -525,7 +525,7 @@
 
 				<div class="container">
 					<div class="spezial-separator"></div>
-					<h2 class="color">Spezial</h2>
+					<h2 id="spezial-menu" class="color">Spezial</h2>
 					<h2>für Ihre Feier</h2>
 					<div class="confetti">
 						<img src="img/confetti.svg" alt="">
@@ -869,7 +869,8 @@
 		<script src="js/isotope.pkgd.min.js"></script>
 		<script src="js/swiper.min.js"></script>
 		<script src="build/lightbox/js/lightbox.js"></script>
-		<script src="build/js/main.js?v=030120191"></script>
+		<script src="build/js/main.js?v=061220191"></script>
+		<!-- <script src="js/main.js?v=030120191"></script> -->
 		<script>
 			setTimeout(function() {
 				$(".overlay").animate({opacity: 0}, 500, function() {
